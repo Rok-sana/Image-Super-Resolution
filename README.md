@@ -8,7 +8,7 @@ The dataset used in this project is the CelebA dataset, consisting of high-resol
 
 ## Model Architecture
 
-The ESPCN model comprises several Convolutional layers with ReLU activation functions to extract essential features from the input images. The last Convolutional layer has filters corresponding to 3 times the upscale factor squared, which determines the upscaling ratio. The Depth-to-Space layer is responsible for upscaling the low-resolution input to high-resolution output, achieving super-resolution.
+The ESPCN model comprises several Convolutional layers  to extract essential features from the input images. The last Convolutional layer has filters corresponding to several times the upscale factor squared, which determines the upscaling ratio. The Depth-to-Space layer is responsible for upscaling the low-resolution input to high-resolution output, achieving super-resolution.
 
 ## Training and Evaluation
 
